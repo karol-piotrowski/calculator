@@ -9,10 +9,15 @@ public class Calculator {
         return a-b;
     }
 
+    public int multiply(int a, int b) {
+        return a*b;
+    }
+
     public static void main(String args[]) {
         Calculator calculator = new Calculator();
         System.out.println("4+5= "+ calculator.add(4,5));
         System.out.println("9-3= "+ calculator.subtract(9,3));
+        System.out.println("6*7= "+ calculator.multiply(6,7));
     }
 
 }
